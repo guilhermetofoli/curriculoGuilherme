@@ -1,0 +1,39 @@
+
+
+h1, h2 {
+    font-weight: 600; /* Usando peso médio para títulos */
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Aplicando a fonte Poppins no corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(242, 249, 254);
+    color: rgb(17, 17, 17);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configura o cabeçalho do projeto */
+header {
+
+}
+
+
+/* Foto de perfil */
+
+.foto-perfil{
+    width: 20vw;
+    height: 18vw;
+    border-radius: 1050%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 208, 0);
+
+}
