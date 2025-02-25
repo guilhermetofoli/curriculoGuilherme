@@ -13,7 +13,7 @@ h1, h2 {
 /* Aplicando a fonte Poppins no corpo da página */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(242, 249, 254);
+    background-color: rgb(232, 232, 232);
     color: rgb(17, 17, 17);
     line-height: 1.6;
     margin: 0;
@@ -22,18 +22,39 @@ body {
 
 /* Configura o cabeçalho do projeto */
 header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
 
 }
-
 
 /* Foto de perfil */
 
 .foto-perfil{
-    width: 20vw;
-    height: 18vw;
+    width: 200px;
+    height: 180px;
     border-radius: 1050%;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(255, 208, 0);
 
+}
+
+section {
+    margin:20px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
 }
